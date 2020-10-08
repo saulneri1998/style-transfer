@@ -1,5 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Style transfer ml5 app
+Application that takes an input image an recreates it mimicking some popular paintings,using a trained ml5 style transfer model
+
+## Examples
+### Model
+The Great Wave off Kanagawa, 1829 - Katsushika Hokusai
+
+![The Great Wave off Kanagawa](./public/models_images/wave.jpg)
+
+### Image
+A photo of my dog
+
+![My dog](./public/models_images/tobi.jpeg)
+![My dog](./public/models_images/tobi2.png)
+
+### Model
+Udnie (Young American Girl, The Dance), 1913 - Francis Picabia
+
+![Udnie](./public/models_images/udnie.jpg)
+
+### Image
+Some horses
+
+![My dog](./public/models_images/horses.jpg)
+![My dog](./public/models_images/horses2.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -12,10 +38,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
