@@ -30,6 +30,24 @@ const ModelPick = () => {
                     m="10px" size="110px" borderRadius="lg"
                     src={process.env.PUBLIC_URL + '/models_images/udnie.jpg'}
                 />
+                <Image 
+                    value="fuchun" onClick={ handleClick }
+                    border={styleModel === "fuchun" ? "2px" : 0} borderColor="purple.600"
+                    m="10px" size="110px" borderRadius="lg"
+                    src={process.env.PUBLIC_URL + '/models_images/fuchun.jpg'}
+                />
+                <Image 
+                    value="rain_princess" onClick={ handleClick }
+                    border={styleModel === "rain_princess" ? "2px" : 0} borderColor="purple.600"
+                    m="10px" size="110px" borderRadius="lg"
+                    src={process.env.PUBLIC_URL + '/models_images/rain_princess.jpg'}
+                />
+                <Image 
+                    value="scream" onClick={ handleClick }
+                    border={styleModel === "scream" ? "2px" : 0} borderColor="purple.600"
+                    m="10px" size="110px" borderRadius="lg"
+                    src={process.env.PUBLIC_URL + '/models_images/scream.jpg'}
+                />
             </Flex>
         </Stack>
     );
